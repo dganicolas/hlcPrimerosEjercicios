@@ -5,8 +5,6 @@ package ejercicio8
 // que simula un pequeño combate
 // entre dos personajes,
 // donde ambos atacan hasta que uno de los dos quede sin vida.
-
-object Combate {
     fun main(args: Array<String>) {
         val goku = Personaje("Goku", 100, 20)
         val vegeta = Personaje("Vegeta", 80, 25)
@@ -22,5 +20,4 @@ object Combate {
             println("Goku ha ganado el combate.")
         }
     }
-}
 internal class Personaje(var nombre: String, var vida: Int, var ataque: Int)
