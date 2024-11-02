@@ -62,7 +62,7 @@ class Biblioteca {
 
 class Main {
     public static void main(String[] args) {
-        Biblioteca2 biblioteca = new Biblioteca2();
+        Biblioteca biblioteca = new Biblioteca2();
         Scanner scanner = new Scanner(System.in);
         int opcion;
 
